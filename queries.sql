@@ -7,3 +7,7 @@ SELECT * FROM enrollments
 where completion_percentage < 10
 
 -- 3ra consulta
+SELECT * FROM enrollments 
+where instructor is null
+
+-- 4ta Consulta
