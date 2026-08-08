@@ -11,3 +11,8 @@ SELECT * FROM enrollments
 where instructor is null
 
 -- 4ta Consulta
+SELECT * FROM enrollments 
+where passed = false
+order by completion_percentage desc limit 5;
+
+-- 5ta Consulta
