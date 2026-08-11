@@ -22,3 +22,7 @@ WHERE enrollment_date::date BETWEEN '2024-03-05' AND '2025-03-05'
 ORDER BY enrollment_date DESC;
 
 -- 6ta Cosulta
+INSERT INTO enrollments (id, student_id, student_name, student_email, course_id, course_title, category, enrollment_date, completion_percentage, passed, monthly_fee_paid, instructor) VALUES 
+( 18, 3, 'Lucia Fernandes', 'lucia.fernandes@student.edutrack.com', 5, 'Advanced Python', 'Programming', '2025-04-01', 0, FALSE, 69.99, 'Carlos Vega');
+
+--  7ma consulta
