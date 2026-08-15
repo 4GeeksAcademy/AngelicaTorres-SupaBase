@@ -26,3 +26,12 @@ INSERT INTO enrollments (id, student_id, student_name, student_email, course_id,
 ( 18, 3, 'Lucia Fernandes', 'lucia.fernandes@student.edutrack.com', 5, 'Advanced Python', 'Programming', '2025-04-01', 0, FALSE, 69.99, 'Carlos Vega');
 
 --  7ma consulta
+SELECT *
+from enrollments
+where instructor is null;
+
+-- 8va consulta
+SELECT * 
+FROM enrollments 
+WHERE student_email LIKE '%@test.com';
+
