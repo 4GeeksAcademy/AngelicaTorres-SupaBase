@@ -52,4 +52,34 @@ GROUP BY
   category;
 
   -- 10ma Consulta
-  
+  SELECT 
+    course_title, 
+    AVG(completion_percentage) AS avg_completion_percentage
+FROM 
+    enrollments 
+GROUP BY 
+    course_title
+ORDER BY 
+    avg_completion_percentage ASC;
+
+    -- 11va Consulta
+    SELECT 
+    course_title, 
+    COUNT(*) AS total_enrollments
+FROM 
+    enrollments 
+GROUP BY 
+    course_title
+HAVING 
+    COUNT(*) > 3;
+
+    -- 12va Consulta
+    SELECT 
+    category, 
+    SUM(monthly_fee_paid) AS total_revenue
+FROM 
+    enrollments 
+GROUP BY 
+    category
+ORDER BY 
+    total_revenue DESC;

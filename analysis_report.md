@@ -77,4 +77,24 @@ Success. No rows returned
 | Data        | 3                 |
 
 # 10ma Consulta
+| course_title           | avg_completion_percentage |
+| ---------------------- | ------------------------- |
+| UI/UX Fundamentals     | 0.00000000000000000000    |
+| Web Design Basics      | 32.5000000000000000       |
+| Digital Marketing 101  | 36.5000000000000000       |
+| Advanced Python        | 45.0000000000000000       |
+| Data Analysis with SQL | 47.6666666666666667       |
+| Intro to Python        | 80.0000000000000000       |
 
+# 11va Consulta
+| course_title    | total_enrollments |
+| --------------- | ----------------- |
+| Intro to Python | 4                 |
+
+# 12va consulta
+| category    | total_revenue |
+| ----------- | ------------- |
+| Programming | 409.93        |
+| Data        | 179.97        |
+| Design      | 169.96        |
+| Marketing   | 59.98         |
