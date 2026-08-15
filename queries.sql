@@ -35,3 +35,21 @@ SELECT *
 FROM enrollments 
 WHERE student_email LIKE '%@test.com';
 
+DELETE FROM enrollments 
+WHERE student_email LIKE '%@test.com';
+
+SELECT * 
+FROM enrollments 
+WHERE student_email LIKE '%@test.com';  --De nuevo
+
+-- 9na Consulta
+SELECT 
+  category, 
+  COUNT(*) AS total_enrollments
+FROM 
+  enrollments
+GROUP BY 
+  category;
+
+  -- 10ma Consulta
+  

@@ -64,5 +64,17 @@ Success. No rows returned
 | 13 | 8          | James Miller | james.miller@test.com | 1         | Intro to Python   | Programming | 2024-05-22      | 30                    | false  | 49.99            | Marta López |
 | 14 | 9          | Alex Chen    | alex.chen@test.com    | 2         | Web Design Basics | Design      | 2024-06-30      | 10                    | false  | 39.99            | Carlos Vega |
 
+Success. No rows returned
 
+Success. No rows returned
+
+# 9na Consulta
+| category    | total_enrollments |
+| ----------- | ----------------- |
+| Marketing   | 2                 |
+| Programming | 7                 |
+| Design      | 4                 |
+| Data        | 3                 |
+
+# 10ma Consulta
 
